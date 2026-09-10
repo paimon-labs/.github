@@ -22,6 +22,16 @@ The platform is built around a modular architecture that keeps core capabilities
 * **Observability** — Visibility into agent activity, execution, and system state.
 * **Extensibility** — A foundation for developing and integrating new capabilities.
 
+### Repositories
+
+| Repo | Purpose |
+|---|---|
+| [`paimon-backend`](https://github.com/paimon-labs/paimon-backend) | Cloud orchestrator — a modular monolith housing Vani (voice), Narada (routing), Tattva (tools/skills/sandbox), Manas (memory), and Sakshi (observability logger) |
+| [`paimon-desktop-windows`](https://github.com/paimon-labs/paimon-desktop-windows) | Native Windows client (WinUI 3) |
+| [`paimon-desktop-mac`](https://github.com/paimon-labs/paimon-desktop-mac) | Native macOS client (SwiftUI) |
+| [`paimon-mobile`](https://github.com/paimon-labs/paimon-mobile) | Mobile client (React Native / Expo) — conversation, observability canvas, browser-extension actions |
+| [`paimon-web`](https://github.com/paimon-labs/paimon-web) | Landing page, docs, self-hosting instructions |
+
 ## Engineering Principles
 
 We favor engineering decisions that are:
